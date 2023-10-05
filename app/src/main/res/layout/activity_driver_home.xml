@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DriverHome"
+    android:background="@drawable/app2"
+    >
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="232dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="76dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Driver Home"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/DBtnProfile"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="Profile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/DregisBtn"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:text="Driver Registration"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iebtn" />
+
+    <Button
+        android:id="@+id/iebtn"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Income and Expenses"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/idDsetting"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="216dp"
+        android:text="Settings"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DvehicBtn" />
+
+    <Button
+        android:id="@+id/Dlogoutbtn"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="216dp"
+        android:text="LogOut"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DregisBtn" />
+
+    <Button
+        android:id="@+id/DvehicBtn"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:text="Vehicle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DBtnProfile" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

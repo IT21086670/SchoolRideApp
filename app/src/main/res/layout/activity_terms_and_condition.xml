@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".termsAndCondition"
+    android:background="@drawable/app2"
+    >
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="382dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="13dp"
+        android:text="The Google Play Developer Distribution Agreement requires that you grant your users a &quot;nonexclusive, worldwide, and perpetual license to perform, display, and use the Product on the Device.&quot;  You could cover this in the End-User License Agreement (EULA) or cover it in your Terms and Conditions agreement along with other clauses that are useful for your Android app."
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="382dp"
+        android:layout_height="506dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="4dp"
+        android:text="About Our Services Privacy And Security Principles. Since we started WhatsApp, we've built our Services with strong privacy and security principles in mind.Connecting You With Other People. We provide, and always strive to improve,
+         ways for you to communicate with other WhatsApp users including through messages, voice and video calls, sending images and video, showing your status, and sharing your location with others when you choose.
+        We may provide a convenient platform that enables you to send and receive money to or from other
+        users across our platform. WhatsApp works with partners, service providers, and affiliated companies to
+        help us provide ways for you to connect with their services.Ways To Improve Our Services. We analyze how you make use
+        of WhatsApp, in order to improve our Services, including helping businesses who use WhatsApp measure the effectiveness and
+        distribution of their services and messages. WhatsApp uses the information it has and also works with partners, service providers,
+         and affiliated companies to do this.Communicating With Businesses. We provide, and always strive to improve, ways for you and
+          businesses and other organizations, to communicate with each other using our Services, such as through order, transaction, and
+          appointment information, delivery and shipping notifications, product and service updates, and marketing.Safety, Security,
+           And Integrity. We work to protect the safety, security, and integrity of our Services.  "
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Terms And Conditions"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

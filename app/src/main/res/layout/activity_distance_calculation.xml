@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DistanceCalculation"
+    android:background="@drawable/app2"
+    >
+
+
+    <EditText
+        android:id="@+id/idsDistance"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="218dp"
+        android:ems="10"
+        android:hint="Distance in km"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/idKm"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="293dp"
+        android:ems="10"
+        android:hint="Price For 1 km"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/idresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="393dp"
+        android:fontFamily="sans-serif-black"
+        android:hint="Results"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/Padd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="454dp"
+        android:text="Calculate" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="56dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Calculate Distance"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/idHome"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="166dp"
+        android:text="Home" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="172dp"
+        android:text="Price for 1 km = 50"
+        android:textColor="#000000" />
+
+</RelativeLayout>

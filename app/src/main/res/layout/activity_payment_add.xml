@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentAdd"
+    android:background="@drawable/app2"
+    >
+
+    <EditText
+        android:id="@+id/idpFees"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:hint="Fees"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idDatep" />
+
+    <Button
+        android:id="@+id/subPayBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="144dp"
+        android:text="Add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/showPayBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idpFees" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Payment"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/idDatep"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:hint="Month"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/showPayBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="144dp"
+        android:text="show"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/subPayBtn"
+        app:layout_constraintTop_toBottomOf="@+id/idpFees" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="294dp"
+        android:layout_height="171dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22"
+        app:srcCompat="@drawable/payments" />
+</androidx.constraintlayout.widget.ConstraintLayout>
